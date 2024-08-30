@@ -1,0 +1,32 @@
+form{}
+.mb0im{margin-bottom: 0px !important;}
+.edit-header{margin-left: 4px;
+    text-transform: uppercase;
+    color: #333333d4;
+    display: flex;gap: 4px;
+    font-size: 16px;}
+.data_context{margin-top: -20px !important;}
+.ecount svg {color: #6aac04 !important;}
+.field{display: flex; flex-direction: column;padding: 8px 6px;
+}
+.field label {
+    margin-bottom: 3px;
+    font-size: 17px;
+    color: #333333d4;
+    margin-left: 5px;
+}
+.field input, .field select {
+    height: 40px;
+    border: none;
+    color: #333;
+    padding: 0 6px;
+    font-size: 17px;
+    border-bottom:1px solid #cccc;
+}
+.field input:focus,.field select{
+    outline: none;
+    border-bottom: 1px solid rgb(168, 205, 105);
+}
+
+.gidfield{display: grid; grid-template-columns: 1fr 1fr}
+.gidfield input, .gidfield select{width: 99%;text-align: left;}
